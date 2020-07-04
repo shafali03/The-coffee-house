@@ -241,3 +241,48 @@ header {
   color: #fff;
   background-color: var(--secondary-font-color);
 }
+
+
+/* discover our story */
+.global-headline {
+  text-align: center;
+  margin-top: 3.9rem;
+}
+
+.discover-our-story .global-headline {
+  margin-top: 6.9rem;
+}
+
+.headline-dark {
+  color: var(--main-font-color-dark);
+  letter-spacing: .7rem;
+  margin-top: -.7rem;
+}
+
+.global-headline .sub-headline {
+  letter-spacing: -1px;
+  line-height: .42;
+}
+
+
+.restaurant-info {
+  text-align: center;
+}
+
+.restaurant-description {
+  margin-bottom: 3rem;
+}
+
+.restaurant-description p {
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+}
+
+.body-btn {
+  font-size: 1.5rem;
+  color: var(--secondary-font-color);
+  position: relative;
+  transition: color .5s;
+}
+
+
