@@ -285,4 +285,15 @@ header {
   transition: color .5s;
 }
 
+.tasteful-coffee {
+  background: url("images/tasteful-coffee.jpg") center no-repeat;
+  background-size: cover;
+  
+}
+
+.between {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+}
 
