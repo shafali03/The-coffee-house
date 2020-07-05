@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Coffee House</title>
+  <meta
+    content="We are the Coffee House providing high quality Coffee from around the world. Our customers come from all over the world to try our Coffee House specials coffee."
+    name="description">
 
   <!--Font awesome CDN-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
@@ -26,7 +29,7 @@
         <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="index-html" class="nav-link active">Home</a>
+            <a href="#" class="nav-link active">Home</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Menu</a>
@@ -43,7 +46,7 @@
   </header>
   <!-- header ends -->
 
-  <section class="hero" id="hero">
+  <section class="hero" id="home-page">
     <div class="container">
       <h2 class="sub-headline">
         <span class="first-letter">W</span>elcome
@@ -118,10 +121,10 @@
     <div class="container">
       <div class="restaurant-info">
         <div class="image-group padding-right animate-left">
-          <img src="images/menu-group-1.jpg" alt="">
-          <img src="images/menu-group-2.jpg" alt="">
-          <img src="images/menu-group-3.jpg" alt="">
-          <img src="images/menu-group-4.jpg" alt="">
+          <img src="images/menu-group-1.jpg" alt="coffee-cup-image">
+          <img src="images/menu-group-2.jpg" alt="coffee-cup-image">
+          <img src="images/menu-group-3.jpg" alt="coffee-cup-image">
+          <img src="images/menu-group-4.jpg" alt="coffee-cup-image">
         </div>
         <div class="restaurant-description animate-right">
           <div class="global-headline">
@@ -193,13 +196,13 @@
   <footer>
     <div class="container">
       <div class="back-to-top">
-        <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+        <a href="#home-page">Home<i class="fas fa-chevron-up"></i></a>
       </div>
       <div class="footer-content">
         <div class="footer-content-about animate-top">
           <h4>About Coffee House</h4>
           <div class="asterisk">
-            <img class="foot-logo" src="images/footer.png" alt="">
+            <img class="foot-logo" src="images/footer.png" alt="coffee-cup-logo">
           </div>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minus corporis repellat, illum aperiam
@@ -212,24 +215,33 @@
             <h4>Follow us</h4>
             <ul class="social-icons">
               <li>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://facebook.com" target="blank" aria-label="facebook profile"><i
+                    class="fab fa-facebook-square"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com" target="blank" aria-label="twitter profile"><i
+                    class="fab fa-twitter"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="https://pinterest.com" target="blank" aria-label="pinterest profile"><i
+                    class="fab fa-pinterest"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="https://linkedin.com" target="blank" aria-label="linkedin profile"><i
+                    class="fab fa-linkedin-in"></i></a>
               </li>
             </ul>
           </div>
           <div class="newsletter-container">
             <h4>Newsletter</h4>
             <form action="" class="newsletter-form">
-              <input type="text" class="newsletter-input" placeholder="Your email address">
-              <button class="newsletter-btn" type="submit">
+              <label for="text">
+                <input type="text" class="newsletter-input" aria-label="Search" placeholder="Your email address">
+
+              </label>
+              <button class="newsletter btn cta-btn" type="submit">
+                submit
                 <i class="fas fa-envelope"></i>
               </button>
             </form>
