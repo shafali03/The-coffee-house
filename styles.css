@@ -359,8 +359,13 @@ footer {
   margin-bottom: 3rem;
 }
 
+
 .footer-content {
   margin: 2.4rem 0;
+}
+
+.foot-logo {
+  width: 5%;
 }
 
 .footer-content-about {
@@ -417,3 +422,123 @@ footer {
   transform: translateY(-50%);
   margin-left: 10.5rem;
 }
+
+
+/* Media query */
+
+
+@media screen and (min-width: 900px) {
+  section {
+    padding: 7.9rem;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav {
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    position: initial;
+    width: initial;
+    height: initial;
+    background-color: transparent;
+    padding: 0;
+    justify-content: initial;
+    flex-direction: row;
+    transform: initial;
+    transition: initial;
+  }
+
+  .nav-item {
+    margin: 0 2.4rem;
+    border: none;
+  }
+
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+
+  .nav-link {
+    font-size: 1.3rem;
+  }
+
+  .active {
+    position: relative;
+  }
+
+  .active::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    bottom: -3px;
+    }
+
+    .sub-headline {
+      font-size: 10rem;
+    }
+
+    .first-letter {
+      font-size: 12.2rem;
+    }
+
+    .headline {
+      font-size: 4.7rem;
+      letter-spacing: .8rem;
+    }
+
+    .line {
+      max-width: 11.5rem;
+    }
+
+    .restaurant-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .restaurant-info > div {
+      flex: 1;
+    }
+
+    .padding-right {
+      padding-right: 7rem;
+    }
+
+
+    .footer-content {
+      max-width: 77.5rem;
+      margin: auto;
+    }
+
+    .font-content-about {
+      max-width: 51.3rem;
+      margin: 0 auto 5.4rem;
+    }
+
+    .footer-content-divider {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .social-media,
+    .newsletter-font {
+      width: 100%;
+      max-width: 27.3rem;
+      margin: 0 1rem;
+    }
+
+    .social-media i {
+      opacity: 1;
+    }
+
+    .newsletter-btn {
+      margin-left: 7rem;
+    }
+
+}
+
