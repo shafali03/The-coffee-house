@@ -12,3 +12,8 @@ I have created The Coffee House website with high performance. My aim of this pr
 ## Lighthouse report from google
 
 ![Coffee House](./images/lighthouse-report.png)
+
+
+### Link to the website
+
+[The Coffee House](https://www.shafsm.com/)
