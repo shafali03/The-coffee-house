@@ -16,4 +16,4 @@ I have created The Coffee House website with high performance. My aim of this pr
 
 ### Link to the website
 
-[The Coffee House](https://www.shafsm.com/)
+[The Coffee House](https://the-coffee-house.netlify.app/)
