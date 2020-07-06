@@ -9,6 +9,6 @@ I have created The Coffee House website with high performance. My aim of this pr
 * JavaScript
 
 
-## Lighthouse report on google
+## Lighthouse report from google
 
 ![Coffee House](./images/lighthouse-report.png)
