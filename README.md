@@ -19,4 +19,4 @@ I have created The Coffee House website with high performance. My aim of this pr
 [The Coffee House](https://the-coffee-house.netlify.app/)
 
 
-<img src='https://res.cloudinary.com/shafali/image/upload/v1601126523/coffee_jfmhn3.gif'>
+<img src='https://res.cloudinary.com/shafali/image/upload/v1601126650/coffee-600_hppxak.gif'>
